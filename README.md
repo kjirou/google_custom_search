@@ -15,6 +15,11 @@ Investigation of Google Custom Search
 - http://www.crystal-creation.com/web-appli/technical-information/web-api/google/search/web/custom-search/
 
 
+## Custom Search Element V2
+
+- http://www.crystal-creation.com/web-appli/technical-information/web-api/google/search/web/custom-search/v2.htm
+
+
 ## Links
 
 - http://offsidenow.phpapps.jp/archives/415
