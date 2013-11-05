@@ -10,6 +10,11 @@ Investigation of Google Custom Search
 - https://developers.google.com/web-search/docs/?hl=ja
 
 
+## Custom Search Element にしろってこと？
+
+- http://www.crystal-creation.com/web-appli/technical-information/web-api/google/search/web/custom-search/
+
+
 ## Links
 
 - http://offsidenow.phpapps.jp/archives/415
