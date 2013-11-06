@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSE Sample</title>
+</head>
+<body>
+
+  <div class="header">
+    <h1>Page Title</h1>
+  </div>
+
+  <div class="wrapper">
+    <script>
+      (function() {
+        var cx = '002693327374914404663:dxubgfhzcoq';
+        var gcse = document.createElement('script');
+        gcse.type = 'text/javascript';
+        gcse.async = true;
+        gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+            '//www.google.com/cse/cse.js?cx=' + cx;
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(gcse, s);
+      })();
+    </script>
+    <gcse:search></gcse:search>
+  </div>
+
+</body>
+</html>
