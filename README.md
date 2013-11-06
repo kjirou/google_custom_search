@@ -41,5 +41,9 @@ Investigation of Google Custom Search
 ### Custom Search engine ID (カスタム検索ID)
 
 - https://www.google.com/cse/all
+- 検索対象のサイトはどこでもよい
+- ローカルにおいても動く
+
+
 
 
