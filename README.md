@@ -34,3 +34,12 @@ Investigation of Google Custom Search
 
 - http://www.crystal-creation.com/web-appli/technical-information/web-api/google/search/web/custom-search/v2.htm#cse-api
 - https://developers.google.com/custom-search/docs/element
+
+
+## 必要なもの
+
+### Custom Search engine ID (カスタム検索ID)
+
+- https://www.google.com/cse/all
+
+
