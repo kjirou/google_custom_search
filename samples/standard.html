@@ -4,25 +4,49 @@
   <title>CSE Sample</title>
 </head>
 <body>
+  <script>
+    (function() {
+      var cx = '002693327374914404663:fl3kkh0h5ay';
+      var gcse = document.createElement('script');
+      gcse.type = 'text/javascript';
+      gcse.async = true;
+      gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+          '//www.google.com/cse/cse.js?cx=' + cx;
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(gcse, s);
+    })();
+  </script>
 
-  <div class="header">
-    <h1>Search from kray.jp</h1>
+
+  <h1>CSE Sample</h1>
+
+
+  <h2>Element type = standard</h2>
+  <div>
+    <gcse:search></gcse:search>
   </div>
 
-  <div class="wrapper">
-    <script>
-      (function() {
-        var cx = '002693327374914404663:fl3kkh0h5ay';
-        var gcse = document.createElement('script');
-        gcse.type = 'text/javascript';
-        gcse.async = true;
-        gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-            '//www.google.com/cse/cse.js?cx=' + cx;
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(gcse, s);
-      })();
-    </script>
-    <gcse:search></gcse:search>
+
+  <h2>Element type = two-column</h2>
+  <script>
+    (function() {
+      var cx = '002693327374914404663:fl3kkh0h5ay';
+      var gcse = document.createElement('script');
+      gcse.type = 'text/javascript';
+      gcse.async = true;
+      gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+          '//www.google.com/cse/cse.js?cx=' + cx;
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(gcse, s);
+    })();
+  </script>
+  <div>
+    Input:
+    <gcse:searchbox>
+  </div>
+  <div>
+    Results:
+    <gcse:searchresults>
   </div>
 
 </body>
