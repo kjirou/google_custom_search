@@ -19,7 +19,7 @@
 
 ## 特定のディレクトリ以下を検索対象にできるか？
 
-as_sitesearch オプションを使う。
+as_sitesearch 属性で設定する。
 
 ```
 <gcse:search as_sitesearch="kray.jp/blog/"></gcse:search>
@@ -52,4 +52,9 @@ bタグを付与してくれているので、それをCSSで修正する
 
 ## 検索順位（順序？）
 
-
+- sorty_by 属性を設定するとできるらしい、デフォルトは "Relevance"(妥当順？)
+- その他、デフォルトで設定可能なのは Date 順のみ
+  - この設定は、コンパネ＞検索機能＞詳細設定＞検索結果の並び替え からできる
+- ただし、それ以外の項目でソートさせたい場合は、こちらで何かを出力して API 側に知らせる必要があるらしい
+  - ここで一旦調査は保留にしている
+  - マニュアル Sort results https://support.google.com/customsearch/answer/2549537
