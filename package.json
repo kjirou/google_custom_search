@@ -1,0 +1,19 @@
+{
+  "name": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kjirou/"
+  },
+  "private": true,
+  "description": "",
+  "version": "0.0.0",
+  "author": "kjirou",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-contrib-connect": "*"
+  },
+  "scripts": {
+  }
+}
